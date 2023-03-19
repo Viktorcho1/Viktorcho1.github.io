@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+body{
+	font-family: 'Rubik Iso', cursive;
+	background: url(https://static.vecteezy.com/system/resources/thumbnails/002/400/117/small/white-watercolor-paper-texture-or-background-free-photo.jpg);
+	padding:100px 0;
+}
+
+.main-conteiner{
+width: 800px;
+height: 700px;
+border: 10px solid #fff;
+margin: 0 auto;
+background: #fff;
+}
+
+.header{
+	display:flex;
+	height: 150px;
+}
+
+.title-block{
+	position:relative;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	font-size: 15px;
+	width:80%;
+	height: 100%;
+	background: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80)no-repeat center center / cover;
+	color: #fff;
+	margin-right:15px;
+}
+
+.title-block::after{
+content:'';
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+background: #000;
+opacity: 0.5;
+}
+
+.title{
+position:relative;
+z-index: 1;
+}
+
+.userpic{
+	display:flex;
+	height: 100%;
+	width: 21%;
+	background: url(https://chetart.com/blog/wp-content/uploads/2012/09/code-monkey-ChetArt.jpg)no-repeat center center / cover;
+}
+
+.nav ul{
+display: flex;
+background: rgb(230, 230, 230);
+margin: 10px 0;
+
+}
+
+.nav li{
+	list-style-type: none;
+	
+}
+
+.nav li a {
+	display: flex;
+	padding: 20px;
+	text-decoration: none;
+	color: #404040;
+	font-weight:bold;
+	border-right:1px solid #d1d1d1;
+	transition: background .3s ease;
+}
+.nav li a:hover {
+	background: rgb(141, 141, 141);
+
+}
+
+.main-content{
+	display: flex;
+}
+
+.content{
+	width: 70%;
+	padding:20px;
+}
+
+.content p{
+	background: #3d3c3c;
+	line-height: 20px;
+	color:#ffff;
+}
+.sidebar{
+	padding:20px;
+	width: 30%;
+}
+
+.skills li{
+margin: 10px 0;
+transition: transform .5s ease;
+}
+
+.skills li:hover{
+	transform: translateX(10px);
+}
