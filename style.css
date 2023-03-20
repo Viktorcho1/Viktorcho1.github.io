@@ -1,22 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://bg.allfont.net/allfont.css?fonts=silkscreen-expanded-bold');
 
 body{
 	font-family: 'Rubik Iso', cursive;
-	background: url(https://static.vecteezy.com/system/resources/thumbnails/002/400/117/small/white-watercolor-paper-texture-or-background-free-photo.jpg);
-	padding:100px 0;
+	background: url(/img/0adf1c056702d922ece51a56b9b0be2f.jpg);
+}
+
+.background{
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Новите бралзъри */
 }
 
 .main-conteiner{
 width: 800px;
-height: 700px;
+height: 1300px;
 border: 5px solid #000000;
 margin: 0 auto;
-background: linear-gradient(90deg, rgba(67,255,0,1) 0%, rgba(108,184,31,1) 35%, rgba(18,102,33,1) 100%);
+background: linear-gradient(90deg, rgba(174,255,181,1) 0%, rgba(120,255,105,1) 35%, rgba(91,255,125,1) 100%);
 }
 
 .header{
 	display:flex;
 	height: 150px;
+}
+
+.flag{
+	width:40px;
+	height:30px;
+}
+
+.translate{
+	background: transparent;
+	border:2px solid red;
+	margin-left:20px;
+}
+
+.hader-iteam-lang-en{
+	list-style-type: none;
 }
 
 .title-block{
@@ -57,7 +78,7 @@ z-index: 1;
 
 .nav ul{
 display: flex;
-background: linear-gradient(90deg, rgba(67,255,0,1) 0%, rgba(108,184,31,1) 35%, rgba(18,102,33,1) 100%);
+background: linear-gradient(90deg, rgba(174,255,181,1) 0%, rgba(120,255,105,1) 35%, rgba(91,255,125,1) 100%);
 margin: 10px 0;
 border:2px solid gray;
 }
@@ -83,6 +104,7 @@ border:2px solid gray;
 
 .main-content{
 	display: flex;
+	border: 2px solid red;
 }
 
 .content{
@@ -107,4 +129,40 @@ transition: transform .5s ease;
 
 .skills li:hover{
 	transform: translateX(10px);
+}
+
+.autor-info{
+	display:flex;
+	border: 2px solid red;
+}
+
+.ainfo{
+	display:flex;
+	padding:20px;
+	height:510px;
+}
+
+
+.Skills-main-info{
+	margin-bottom:20px;
+	line-height: 20px;
+	color:#000000;
+}
+
+.main-contact-info{
+	display:flex;
+	padding:20px;
+	height:300px;
+}
+
+.contact-info-1{
+	text-align: center;
+}
+
+.contact-info-2{
+	text-align: center;
+}
+
+.contact-info-3{
+	text-align: center;
 }
