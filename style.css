@@ -104,7 +104,6 @@ border:2px solid gray;
 
 .main-content{
 	display: flex;
-	border: 2px solid red;
 }
 
 .content{
@@ -133,7 +132,6 @@ transition: transform .5s ease;
 
 .autor-info{
 	display:flex;
-	border: 2px solid red;
 }
 
 .ainfo{
